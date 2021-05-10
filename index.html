@@ -11,11 +11,59 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
       <div class="container mscat-mast">
-        <div class="mcat-logo"></div>
+        <div class="mcat-logo">
+          <img src="./img/logo.png" class="monster-logo" alt="monster-logo" />
+        </div>
+
+        <ul class="nav-links">
+          <li>Music</li>
+          <li>Artist</li>
+          <li>Events</li>
+          <li>Commercial</li>
+          <li>Radio</li>
+          <li>Gold</li>
+          <li>Shop</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+
+      <div class="container player">
+        <div class="player-left">
+          <div class="navigation">
+            <span>
+              <i class="fa fa-music"></i>
+              Player
+            </span>
+            <span>
+              <i class="fas fa-sign-in-alt"></i>
+              Sign In
+            </span>
+          </div>
+          <div class="player-input">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search" class="search-input" />
+          </div>
+        </div>
+
+        <div class="player-control">
+          <span class="conro">Conro-Say It</span>
+          <i class="fa fa-random control-icon"></i>
+          <i class="fa fa-step-backward control-icon"></i>
+          <i class="fa fa-play control-icon"></i>
+          <i class="fa fa-step-backward control-icon"></i>
+          <i class="fa fa-repeat control-icon"></i>
+          <i class="fa fa-volume-down control-icon"></i>
+        </div>
       </div>
     </header>
     <script src="./main.js"></script>

@@ -7,3 +7,81 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.monster-logo {
+  height: 50px;
+  width: 180px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  margin: 10px;
+}
+
+.navigation > span {
+  margin: 8px;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.player-left {
+  display: flex;
+  align-items: center;
+}
+
+.player-input {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  transition: border-color 0.3s ease;
+  border: 0;
+  padding: 0.6rem 1rem 0.4rem 1rem;
+  transition: border-color 0.4s ease;
+  outline: none;
+}
+
+.player-control {
+  display: flex;
+  align-items: center;
+}
+
+.control-icon {
+  margin: 8px;
+  cursor: pointer;
+}
+
+.conro {
+  margin-right: 8px;
+  cursor: pointer;
+}
